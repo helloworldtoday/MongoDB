@@ -11,3 +11,7 @@ in this case, it is `export PATH=/usr/local/mongodb/bin:$PATH`
 5. create new folder to store data: `mkdir -p /data/db`
 6. open connection: `./mongod`
 7. start up the mongodb: `./mongo` in a new shell
+
+## Start
+1. `cd /usr/local/mongodb/bin`
+2. `./mongo`
