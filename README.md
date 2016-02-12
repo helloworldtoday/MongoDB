@@ -19,3 +19,8 @@ in this case, it is `export PATH=/usr/local/mongodb/bin:$PATH`
 ## Start
 1. `cd /usr/local/mongodb/bin`
 2. `./mongo`
+
+## Basic Operations
+1. switch database: `use XXX`, XXX is the name of database, if not exist, create it
+2. show current database: `db`
+3. show info of all data: `show dbs`
