@@ -2,6 +2,10 @@
 
 The practice of MongoDB from a beginner
 
+## Concepts
+1. document: like row in SQL
+2. collection: like table in SQL
+
 ## Install (Linux platform)
 1. download: `curl -O https://fastdl.mongodb.org/osx/mongodb-osx-x86_64-3.2.1.tgz`
 2. extract: `tar -zxvf mongodb-osx-x86_64-3.2.1.tgz`
