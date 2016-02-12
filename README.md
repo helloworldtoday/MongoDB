@@ -18,7 +18,7 @@ in this case, it is `export PATH=/usr/local/mongodb/bin:$PATH`
 
 ## Start
 1. `cd /usr/local/mongodb/bin`
-2. `./mongo`
+2. `./mongo` (instance running on the localhost interface on port 27017)
 
 ## Basic Operations
 1. switch database: `use XXX`, XXX is the name of database, if not exist, create it
