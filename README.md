@@ -24,3 +24,10 @@ in this case, it is `export PATH=/usr/local/mongodb/bin:$PATH`
 1. switch database: `use XXX`, XXX is the name of database, if not exist, create it
 2. show current database: `db`
 3. show info of all data: `show dbs`
+
+## CRUD (Create, Remove, Update, Delete)
+1. Query/Read: `db.users.find({age:{$gt:18}}).sort({age:1})`
+2. Write: 
+3. 
+
+## TODO
