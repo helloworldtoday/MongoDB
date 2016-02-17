@@ -30,7 +30,7 @@ import json file: open another command shell (not mongodb shell), under the path
 
 ## CRUD (Create, Remove, Update, Delete)
 1. Query/Read: `db.users.find({age:{$gt:18}}).sort({age:1})`
-2. Write: 
+2. Write: `db.collectionName.insert(content of new document)`
 
 
 ## TODO
