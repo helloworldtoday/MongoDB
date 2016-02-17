@@ -29,8 +29,8 @@ in this case, it is `export PATH=/usr/local/mongodb/bin:$PATH`
 import json file: open another command shell (not mongodb shell), under the path`./mongoimport --db databaseName --collection collectionName --file /PATH OF JSON FILE/dataset.json`
 
 ## CRUD (Create, Remove, Update, Delete)
-1. Query/Read: `db.users.find({age:{$gt:18}}).sort({age:1})`
+1. Query/Read: `db.users.find({age:{$gt:18}}).sort({age:1})` OR `db.users.find()` find all
 2. Write: `db.collectionName.insert(content of new document)`
-
+# more information from https://docs.mongodb.org/getting-started/shell/query/
 
 ## TODO
