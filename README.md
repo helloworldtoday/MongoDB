@@ -28,6 +28,6 @@ in this case, it is `export PATH=/usr/local/mongodb/bin:$PATH`
 ## CRUD (Create, Remove, Update, Delete)
 1. Query/Read: `db.users.find({age:{$gt:18}}).sort({age:1})`
 2. Write: 
-3. 
+
 
 ## TODO
