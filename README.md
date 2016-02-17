@@ -25,6 +25,9 @@ in this case, it is `export PATH=/usr/local/mongodb/bin:$PATH`
 2. show current database: `db`
 3. show info of all data: `show dbs`
 
+## Import data
+import json file: open another command shell (not mongodb shell), under the path`./mongoimport --db databaseName --collection collectionName --file /PATH OF JSON FILE/dataset.json`
+
 ## CRUD (Create, Remove, Update, Delete)
 1. Query/Read: `db.users.find({age:{$gt:18}}).sort({age:1})`
 2. Write: 
